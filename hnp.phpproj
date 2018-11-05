@@ -1,0 +1,144 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>hnp</Name>
+    <ProjectGuid>e1f2b3af-d9a3-4b26-be9b-2d7097725171</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <AssemblyName>hnp</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="class.php" />
+    <Compile Include="functions.php" />
+    <Compile Include="index.php" />
+    <Compile Include="staticclass.php" />
+    <Compile Include="statistics\class.php" />
+    <Compile Include="statistics\details.php" />
+    <Compile Include="statistics\font\courier.php" />
+    <Compile Include="statistics\font\courierb.php" />
+    <Compile Include="statistics\font\courierbi.php" />
+    <Compile Include="statistics\font\courieri.php" />
+    <Compile Include="statistics\font\helvetica.php" />
+    <Compile Include="statistics\font\helveticab.php" />
+    <Compile Include="statistics\font\helveticabi.php" />
+    <Compile Include="statistics\font\helveticai.php" />
+    <Compile Include="statistics\font\symbol.php" />
+    <Compile Include="statistics\font\times.php" />
+    <Compile Include="statistics\font\timesb.php" />
+    <Compile Include="statistics\font\timesbi.php" />
+    <Compile Include="statistics\font\timesi.php" />
+    <Compile Include="statistics\font\unifont\ttfonts.php" />
+    <Compile Include="statistics\font\zapfdingbats.php" />
+    <Compile Include="statistics\function.php" />
+    <Compile Include="statistics\index.php" />
+    <Compile Include="statistics\settings.php" />
+    <Compile Include="statistics\tfpdf.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="statistics\" />
+    <Folder Include="statistics\brand\" />
+    <Folder Include="statistics\css\" />
+    <Folder Include="statistics\css\src\" />
+    <Folder Include="statistics\flash\" />
+    <Folder Include="statistics\fonts\" />
+    <Folder Include="statistics\font\" />
+    <Folder Include="statistics\font\unifont\" />
+    <Folder Include="statistics\img\" />
+    <Folder Include="statistics\js\" />
+    <Folder Include="statistics\js\src\" />
+    <Folder Include="statistics\js\vendor\" />
+    <Folder Include="statistics\php\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="statistics\brand\bootstrap-outline.svg" />
+    <Content Include="statistics\brand\bootstrap-punchout.svg" />
+    <Content Include="statistics\brand\bootstrap-solid.svg" />
+    <Content Include="statistics\css\bootstrap-theme.css" />
+    <Content Include="statistics\css\bootstrap-theme.css.map" />
+    <Content Include="statistics\css\bootstrap-theme.min.css" />
+    <Content Include="statistics\css\bootstrap-theme.min.css.map" />
+    <Content Include="statistics\css\bootstrap.css" />
+    <Content Include="statistics\css\bootstrap.css.map" />
+    <Content Include="statistics\css\bootstrap.min.css" />
+    <Content Include="statistics\css\bootstrap.min.css.map" />
+    <Content Include="statistics\css\dashboard.css" />
+    <Content Include="statistics\css\docs.min.css" />
+    <Content Include="statistics\css\docs.min.css.map" />
+    <Content Include="statistics\css\ie10-viewport-bug-workaround.css" />
+    <Content Include="statistics\css\signin.css" />
+    <Content Include="statistics\css\src\docs.css" />
+    <Content Include="statistics\css\src\pygments-manni.css" />
+    <Content Include="statistics\flash\ZeroClipboard.swf" />
+    <Content Include="statistics\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="statistics\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="statistics\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="statistics\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="statistics\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="statistics\font\unifont\DejaVuSans-Bold.ttf" />
+    <Content Include="statistics\font\unifont\DejaVuSans-BoldOblique.ttf" />
+    <Content Include="statistics\font\unifont\DejaVuSans-ExtraLight.ttf" />
+    <Content Include="statistics\font\unifont\DejaVuSans-Oblique.ttf" />
+    <Content Include="statistics\font\unifont\DejaVuSans.ttf" />
+    <Content Include="statistics\font\unifont\DejaVuSansCondensed-Bold.ttf" />
+    <Content Include="statistics\font\unifont\DejaVuSansCondensed-BoldOblique.ttf" />
+    <Content Include="statistics\font\unifont\DejaVuSansCondensed-Oblique.ttf" />
+    <Content Include="statistics\font\unifont\DejaVuSansCondensed.ttf" />
+    <Content Include="statistics\font\unifont\DejaVuSansMono-Bold.ttf" />
+    <Content Include="statistics\font\unifont\DejaVuSansMono-BoldOblique.ttf" />
+    <Content Include="statistics\font\unifont\DejaVuSansMono-Oblique.ttf" />
+    <Content Include="statistics\font\unifont\DejaVuSansMono.ttf" />
+    <Content Include="statistics\font\unifont\DejaVuSerif-Bold.ttf" />
+    <Content Include="statistics\font\unifont\DejaVuSerif-BoldItalic.ttf" />
+    <Content Include="statistics\font\unifont\DejaVuSerif-Italic.ttf" />
+    <Content Include="statistics\font\unifont\DejaVuSerif.ttf" />
+    <Content Include="statistics\font\unifont\DejaVuSerifCondensed-Bold.ttf" />
+    <Content Include="statistics\font\unifont\DejaVuSerifCondensed-BoldItalic.ttf" />
+    <Content Include="statistics\font\unifont\DejaVuSerifCondensed-Italic.ttf" />
+    <Content Include="statistics\font\unifont\DejaVuSerifCondensed.ttf" />
+    <Content Include="statistics\font\unifont\DejaVu_LICENSE.txt" />
+    <Content Include="statistics\img\components.png" />
+    <Content Include="statistics\img\devices.png" />
+    <Content Include="statistics\img\expo-lyft.jpg" />
+    <Content Include="statistics\img\expo-newsweek.jpg" />
+    <Content Include="statistics\img\expo-riot.jpg" />
+    <Content Include="statistics\img\expo-vogue.jpg" />
+    <Content Include="statistics\img\N0.png" />
+    <Content Include="statistics\img\N1.png" />
+    <Content Include="statistics\img\N2.png" />
+    <Content Include="statistics\img\S0.png" />
+    <Content Include="statistics\img\S1.png" />
+    <Content Include="statistics\img\S2.png" />
+    <Content Include="statistics\img\sass-less.png" />
+    <Content Include="statistics\img\favicon.ico" />
+    <Content Include="statistics\js\bootstrap.js" />
+    <Content Include="statistics\js\bootstrap.min.js" />
+    <Content Include="statistics\js\customize.min.js" />
+    <Content Include="statistics\js\docs.min.js" />
+    <Content Include="statistics\js\ie-emulation-modes-warning.js" />
+    <Content Include="statistics\js\ie10-viewport-bug-workaround.js" />
+    <Content Include="statistics\js\ie8-responsive-file-warning.js" />
+    <Content Include="statistics\js\npm.js" />
+    <Content Include="statistics\js\raw-files.min.js" />
+    <Content Include="statistics\js\src\application.js" />
+    <Content Include="statistics\js\src\customizer.js" />
+    <Content Include="statistics\js\vendor\anchor.min.js" />
+    <Content Include="statistics\js\vendor\autoprefixer.js" />
+    <Content Include="statistics\js\vendor\Blob.js" />
+    <Content Include="statistics\js\vendor\FileSaver.js" />
+    <Content Include="statistics\js\vendor\holder.min.js" />
+    <Content Include="statistics\js\vendor\jquery.min.js" />
+    <Content Include="statistics\js\vendor\jszip.min.js" />
+    <Content Include="statistics\js\vendor\less.min.js" />
+    <Content Include="statistics\js\vendor\uglify.min.js" />
+    <Content Include="statistics\js\vendor\ZeroClipboard.min.js" />
+    <Content Include="statistics\signin.php" />
+  </ItemGroup>
+</Project>
